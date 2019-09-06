@@ -1,0 +1,31 @@
+{
+  "brands": [
+    "Bugatti Veyron",
+    "Boeing 787 Dreamliner",
+    "USRA 0-6-6",
+    "Canadair North Star",
+    "Airbus A400M Atlas",
+    "Bloch MB.131",
+    "Prairie 2-6-2",
+    "EMD GP40",
+    "Amer 4-4-0",
+    "Ferrari F40",
+    "Lamborghini Huracán",
+    "Porsche Carrera GT"
+  ],
+  "colors": [
+    "red", 
+    "white",
+    "black",
+    "green",
+    "blue",
+    "yellow",
+    "brown",
+    "gray"
+  ],
+  "types": [
+    "airplane",
+    "car",
+    "train"
+  ]
+}

@@ -1,0 +1,43 @@
+$xxs: 320px;
+$xs: 480px;
+$sm: 520px;
+$md: 768px;
+$lg: 1024px;
+$xl: 1366px;
+$xxl: 1600px;
+
+@media (min-width: $xxs) {
+  .trafficApp {
+    background: #faebd7;
+    height: 100vh;
+    h2 {
+      padding-top: 30px;
+      text-align: center;
+    }
+    .failMessage {
+      margin: 0 auto;
+      padding-top: 15px;
+      text-align: center;
+    }
+  }
+  .loader {
+    animation: App-logo-spin infinite 20s linear;
+    height: 10vh;
+    pointer-events: none;
+    
+    }
+    @keyframes App-logo-spin {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+}
+
+@media (min-width: $sm) {
+  .loader {
+    height: 50px;
+  }
+}
